@@ -1,0 +1,375 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*===================================================== FOR LAPTOPS (15.6 inches) ===================================================*/
+
+@media only screen and (max-width: 1200px)
+{
+    html
+    {
+        margin-right: -2.5%;
+    }
+    .hero-text-box
+    {
+        margin: 0 20px;
+        width: 100%;
+    }
+    .row
+    {
+        padding: 0 2%;
+    }
+    .working-section h2 
+    {
+        margin-top: 20px;
+    }
+    .developer
+    {
+        margin: -2% 0 0 -4%;
+    }
+    footer p
+    {
+        margin-top: 80px;
+    }
+}
+
+/*===================================================== FOR LAPTOPS (14 inches) ===================================================*/
+
+@media only screen and (max-width: 1023px)
+{
+    html
+    {
+        margin-right: -2.5%;
+    }
+    body
+    {
+        font-size: 18px;
+    }
+    section
+    {
+        padding: 60px 0;
+    }
+    .h2-para
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+     .working-section h2 
+    {
+        margin-top: 25px;
+    }
+    .step-box
+    {
+        margin-top: 20px;
+    }
+    .work-steps
+    {
+        padding-left: 7%;
+        margin-bottom: 40px;
+    }
+    .work-steps p 
+    {
+        font-size: 95%;
+    }
+    .work-steps div
+    {
+        margin-left: -50px;
+        border-radius: 70px;
+        width: 38px;
+        height: 38px;
+        font-size: 140%;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .btn-app img
+    {
+        margin-top: 20px;
+    }
+    .app-screen
+    {
+        margin-right: 60px;
+        width: 65%;
+    }
+    .icon-small
+    {
+        width: 15px;
+        margin-right: 7px;
+    }
+    .section-cities
+    {
+        font-size: 98%;
+    }
+    .plan-box
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .month-price
+    {
+        font-size: 200%;
+    }
+    .contact-form
+    {
+        width: 90%;
+    }
+    .footer-nav li
+    {
+        margin-right: 10px;
+    }
+    .developer
+    {
+        margin: -2% 0 0 -4%;
+    }
+    footer p
+    {
+        margin-top: 90px;
+    }
+    .developer img
+    {
+        width: 30px;
+    }
+}
+
+/*===================================================== FOR TABLETS =========================================*/
+
+
+@media only screen and (max-width: 767px)
+{
+    html
+    {
+        margin-right: -3.7%;
+    }
+    .row .img-box
+    {
+        padding: 0 0 0 4%;
+    }
+    .main-nav
+    {
+        display: none;
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .main-nav li
+    {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited
+    {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+    .sticky .logo-black
+    {
+        float: left;
+    }
+    .sticky .main-nav
+    {
+        margin-top: 10px;
+    }
+    .sticky .mobile-nav i
+    {
+        color: #555;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited
+    {
+        padding: 8px 0;
+    }
+    .sticky .mobile-nav
+    {
+        margin-top: 8px;
+    }
+    .mobile-nav
+    {
+        display: inline-block;
+    }
+    .logo
+    {
+        float: left;
+    }
+    body
+    {
+        font-size: 16px;
+    }
+    section
+    {
+        padding: 30px 0;
+    }
+    .row, .hero-text-box
+    {
+        padding: 0 4%;
+    }
+    h1 
+    {
+        font-size: 180%;
+    }
+    h2 
+    {
+        font-size: 150%;
+    }
+    .col
+    {
+        margin: 0 0 4% 0;
+        width: 100%;
+    }
+    .app-screen
+    {
+        width: 30%;
+        margin: auto 35%
+    }
+    .h2-para
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+     .work-steps
+    {
+        padding: 0 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .work-steps p 
+    {
+        font-size: 105%;
+    }
+    .work-steps:last-of-type
+    {
+        margin-top: -5px;
+        margin-bottom: 50px;
+    }
+    .btn-app img
+    {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .work-steps div
+    {
+        border-radius: 70px;
+        width: 33px;
+        height: 33px;
+        font-size: 120%;
+        margin-top: -4px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .footer-nav
+    {
+        margin-left: -40px;
+    }
+    .social-links
+    {
+        margin-top: -8.1%;
+        margin-right: -40px;
+    }
+    .developer
+    {
+        margin: 0 0 0 -10%;
+    }
+    footer p
+    {
+        margin-top: 50px;
+    }
+    footer cite
+    {
+        margin-top: -8px;
+    }
+    .developer img
+    {
+        width: 25px;
+    }
+
+}
+/*===================================================== FOR VERY SMALL PHONES =========================================*/
+
+@media only screen and (max-width: 480px)
+{    html
+    {
+        margin-right: -6%;
+    }
+    h1
+    {
+        font-size: 150%;
+    }
+    h2 
+    {
+        font-size: 120%;
+    }
+    body 
+    {
+        font-size: 14px;
+    }
+    .mobile-nav
+    {
+        font-size: 70%;
+    }
+    .sticky .mobile-nav
+    {
+        margin-top: 8px;
+    }
+    .main-nav li
+    {
+        font-size: 70%;
+    }
+    .section
+    {
+        padding: 15px 0;
+    }
+    .contact-form
+    {
+        width: 100%;
+    }
+    footer 
+    {
+        font-size: 65%;
+    }
+    .footer-nav li
+    {
+        margin-right: 6px;
+    }   
+    .social-links li
+    {
+        margin-right: 9px;
+    }
+    .social-links
+    {
+        margin-top: -9.2%;
+    }
+    .hungry-btn, .show-btn
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .work-steps div
+    {
+        border-radius: 70px;
+        width: 30px;
+        height: 30px;
+        font-size: 120%;
+        margin-top: -4px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    footer p
+    {
+        margin-top: 50px;
+    }
+    footer cite
+    {
+        margin-left: -7%;
+        margin-top: -8px;
+    }
+    .developer img
+    {
+        width: 20px;
+    }
+}
+
+/*====================================================================================================================*/
